@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace rejestr_dluznikow
 {
-    public partial class Form1 : Form
+    public partial class Rejestr : Form
     {
-        public Form1()
+        public Rejestr()
         {
             InitializeComponent();
+        }
+
+        private void Rejestr_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
